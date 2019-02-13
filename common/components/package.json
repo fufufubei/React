@@ -1,0 +1,76 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@um/components@^1.1.1",
+        "scope": "@um",
+        "escapedName": "@um%2fcomponents",
+        "name": "@um/components",
+        "rawSpec": "^1.1.1",
+        "spec": ">=1.1.1 <2.0.0",
+        "type": "range"
+      },
+      "C:\\Code"
+    ]
+  ],
+  "_cnpm_publish_time": 1493971919179,
+  "_from": "@um/components@>=1.1.1 <2.0.0",
+  "_id": "@um/components@1.1.3",
+  "_inCache": true,
+  "_location": "/@um/components",
+  "_nodeVersion": "6.10.2",
+  "_npmUser": {
+    "name": "hufaliang",
+    "email": "46457654@qq.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_publish_on_cnpm": true,
+  "_requested": {
+    "raw": "@um/components@^1.1.1",
+    "scope": "@um",
+    "escapedName": "@um%2fcomponents",
+    "name": "@um/components",
+    "rawSpec": "^1.1.1",
+    "spec": ">=1.1.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "http://r.cnpmjs.org/@um/components/download/@um/components-1.1.3.tgz",
+  "_shasum": "882a9fc62e9d01088a4ec879de3288f8bbd0c770",
+  "_shrinkwrap": null,
+  "_spec": "@um/components@^1.1.1",
+  "_where": "C:\\Code",
+  "author": {
+    "name": "hufaliang"
+  },
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {},
+  "dist": {
+    "shasum": "882a9fc62e9d01088a4ec879de3288f8bbd0c770",
+    "size": 9264,
+    "key": "/@um/components/-/@um/components-1.1.3.tgz",
+    "tarball": "http://r.cnpmjs.org/@um/components/download/@um/components-1.1.3.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "hufaliang",
+      "email": "46457654@qq.com"
+    }
+  ],
+  "name": "@um/components",
+  "optionalDependencies": {},
+  "publish_time": 1493971919179,
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "cross-env NODE_ENV=build webpack  --progress --colors  ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.3"
+}

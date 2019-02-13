@@ -1,0 +1,37 @@
+{
+    "presets": [
+      "env",
+      "stage-2",
+      "react"
+    ],
+    "plugins": [
+      "transform-runtime",
+      [
+        "component",
+        [
+          {
+            "libraryName": "element-ui",
+            "styleLibraryName": "theme-chalk"
+          }
+        ]
+      ],
+      [
+        "transform-modules",
+        {
+          "cube-ui": {
+            "transform": "cube-ui/lib/${member}",
+            "kebabCase": true,
+            "style": {
+              "ignore": [
+                "create-api",
+                "better-scroll"
+              ]
+            }
+          }
+        }
+      ],
+      [
+        "syntax-dynamic-import"
+      ]
+    ]
+  }
