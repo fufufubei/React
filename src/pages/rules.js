@@ -1,11 +1,20 @@
 import React,{Component} from 'react';
-import '../assets/css/index.css';
-class Rules extends Component{
+import Counter from '../component/counter';
+import Summary from '../component/summary';
+const style={
+    margin:'20px'
+}
+class ControlPanel extends Component{
     render(){
-        return(
-            <div className="page-rules">规则页</div>
+        return (
+            <div style={style}>
+                <Counter caption="First" />
+                <Counter caption="Second" />
+                <Counter caption="Third" />
+                <hr/>
+                <Summary/>
+            </div>
         )
     }
 }
-export default Rules;
-
+export default ControlPanel

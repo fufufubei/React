@@ -310,7 +310,8 @@ class Index extends Component{
                     <div className="main">
                         <TimeModule timeStr={pageData.info.UserInfo.TotalSavingTime} timeObj={pageData.timeObj} />
                         <div className="main-down">
-                            <div className="btn" ></div>
+                            {/* <div className="btn" ></div> */}
+                            <Link  className="btn" to='rules'/>
                         </div>
                         <div className="main-count">
                             <div className="title">我的订单</div>

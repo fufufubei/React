@@ -6,7 +6,8 @@ import Index from '../pages/index';
 import Rules from '../pages/rules';
 import RulesOne from '../pages/rulesOne';
 
-
+import store from '../Redux/Store/store'
+import {Provider} from 'react-redux';
 class App extends Component {
     render(){
         return(
@@ -21,6 +22,9 @@ class App extends Component {
     }
 }
 ReactDom.render(
-    <App/>,
+    // <App/>,
+    <Provider store={store}>
+        <App/>
+    </Provider>,
     document.getElementById('root')
 )
