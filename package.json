@@ -74,7 +74,7 @@
     "vue-template-compiler": "^2.5.21",
     "vuex": "^3.0.1",
     "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.1",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.1.10",
     "webpack-merge": "^4.1.5",
     "webpack-post-compile-plugin": "^0.3.1",
